@@ -77,30 +77,6 @@ ANTHROPIC_API_KEY = "your-key"
 GEMINI_API_KEY = "your-key"
 DEEPSEEK_API_KEY = "your-key"
 ```
-## Presenting Case example
-<div style="
-  border: 1px solid #ccc;
-  padding: 15px;
-  border-radius: 8px;
-  background: #f9f9f9;
-">
-
-<strong>Age & Sex:</strong> 37-year-old individual  
-<strong>Presenting Complaint:</strong> Progressive fatigue, pallor, and episodes of dizziness for 3 months  
-
-<strong>History:</strong>  
-- Vegan diet with minimal supplementation  
-- No obvious gastrointestinal blood loss  
-
-<strong>Physical Examination:</strong>  
-- Pale conjunctiva  
-- No lymphadenopathy or splenomegaly  
-
-<strong>Investigations:</strong>  
-- CBC: Hemoglobin 8.4 g/dL, low MCV, low ferritin  
-- Reticulocyte count: mildly low  
-
-</div>
 ## Execution Pipeline
 
 ### Step 1 — `01_generate_gender_variants.py`
@@ -184,4 +160,27 @@ User-defined analysis script for evaluating model behaviour, uncertainty, or bia
 ```bash
 python 05_run_final_analysis.py
 ```
+## Presenting Case example
+<div style="
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  background: #f9f9f9;
+">
 
+<strong>Age & Sex:</strong> 37-year-old individual  
+<strong>Presenting Complaint:</strong> Progressive fatigue, pallor, and episodes of dizziness for 3 months  
+
+<strong>History:</strong>  
+- Vegan diet with minimal supplementation  
+- No obvious gastrointestinal blood loss  
+
+<strong>Physical Examination:</strong>  
+- Pale conjunctiva  
+- No lymphadenopathy or splenomegaly  
+
+<strong>Investigations:</strong>  
+- CBC: Hemoglobin 8.4 g/dL, low MCV, low ferritin  
+- Reticulocyte count: mildly low  
+
+</div>
