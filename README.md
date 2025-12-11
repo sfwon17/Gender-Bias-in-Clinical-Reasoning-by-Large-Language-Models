@@ -160,7 +160,7 @@ User-defined analysis script for evaluating model behaviour, uncertainty, or bia
 ```bash
 python 05_run_final_analysis.py
 ```
-## Presenting Case example
+## Presenting Case Example
 <div style="
   border: 1px solid #ccc;
   padding: 15px;
