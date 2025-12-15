@@ -15,8 +15,6 @@ What it does:
 3. Merges them into one "global" dictionary that maps every variant to a canonical name.
 4. Saves that final dictionary to 'synonym_dict_all.json' in the same directory.
 
-Author: Gabriel Jones
-Date: 2025-06-20
 """
 
 import os
