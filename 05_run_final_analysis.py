@@ -32,9 +32,6 @@ Outputs:
 - Aggregated CSV file: ddx_comparison_aggregated.csv in ./analysis/results/
 - Aggregated Markdown file: ddx_comparison_aggregated.md in ./analysis/results/ (with caption)
 - Bar chart: ddx_agreement_comparison.png in ./analysis/results/
-
-Author: Your Name
-Date: YYYY-MM-DD
 """
 
 import os
