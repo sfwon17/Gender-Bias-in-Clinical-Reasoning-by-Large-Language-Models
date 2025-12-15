@@ -15,9 +15,6 @@ Output:
 - For each presenting complaint (or "Order"), the script saves a JSON file named:
   synonym_dict_order_<ORDER_ID>.json
   into a specified directory (by default, ./analysis/synonym_dictionaries).
-
-Author: Your Name
-Date: YYYY-MM-DD
 """
 
 import os
